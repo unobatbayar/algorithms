@@ -1,5 +1,9 @@
-# sorting algorithm -> Bubble sort!
-def bubbleSort(myList):
-    for i in range (0, len(myList) - 1):
-        for j
+# sorting algorithm -> bubble sort	
+# author @unobatbayar
 
+title = 'Welcome to Bubblesort Algorithm!'
+print(title)
+
+print('Enter your name:')
+name = input()
+print('Hello, ' + name)
