@@ -4,6 +4,7 @@
 title = 'Welcome to Bubblesort Algorithm!'
 print(title)
 
-print('Enter your name:')
-name = input()
-print('Hello, ' + name)
+print('Enter unsorted data set')
+unsorted_data = input()
+
+print(unsorted_data)
