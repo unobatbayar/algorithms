@@ -1,2 +1,2 @@
 # algorithms
-computer science algorithms; searching, sorting, recursion, and graph theory
+computer science algorithms; searching, sorting, recursion, artificial intelligence and graph theory
