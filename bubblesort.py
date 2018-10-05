@@ -1,7 +1,7 @@
 # sorting algorithm -> bubblesort	
 # About bubblesort: Best case O(n), Average O(n2), Worst case O(n2)
 # @author unobatbayar
-
+# Thanks to HackerRank's bubblesort tutorial
 
 title = 'Welcome to Bubblesort Algorithm!'
 print(title + '\n' + 'Enter unsorted data set: ')
