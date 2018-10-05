@@ -1,5 +1,5 @@
 # sorting algorithm ->  quicksort	
-# author @unobatbayar
+# @author unobatbayar
 
 title = 'Welcome to Quicksort Algorithm!'
 print(title)
