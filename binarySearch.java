@@ -6,7 +6,7 @@ import java.util.*;
  Thanks to HackerRank's binary search tutorial
 **/
 
-class binarySearch{
+class BinarySearch{
     public static void main(String[] args){
         String title = "Welcome to Binary Search Algorithm! \n";
         print(title + "Enter sorted data set");
