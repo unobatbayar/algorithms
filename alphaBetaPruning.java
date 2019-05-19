@@ -1,3 +1,8 @@
+
+/* Taken from my Gomoku Ai's alpha beta pruning addition. Acts as a Pseudocode for understanding.
+Your implementation will be differnet for your use while it retains the core algorithn. 
+@author unobatbayar
+*/
 class alphaBetaPruning{
     public int[] minimax(Color[][] board, int depth, Color player, int alpha, int beta, Color me, Color enemy) {
 
