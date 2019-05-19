@@ -1,3 +1,0 @@
-class alpha-beta-pruning{
-    
-}
