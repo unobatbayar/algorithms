@@ -1,4 +1,4 @@
-// Beam Search Algorithm
+// Local Beam Search Algorithm
 class beamsearch{
-    
+
 }
