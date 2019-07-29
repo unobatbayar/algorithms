@@ -3,7 +3,7 @@
 Your implementation will be differnet for your use while it retains the core algorithn. 
 @author unobatbayar
 */
-class alphaBetaPruning{
+class Alpha-beta-pruning{
     public int[] minimax(Color[][] board, int depth, Color player, int alpha, int beta, Color me, Color enemy) {
 
         Color[][] new_board = new Color[8][8];
