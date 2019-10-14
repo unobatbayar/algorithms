@@ -3,4 +3,4 @@ Let's expand our knowledge of algorithms! General computer science algorithms; S
 
 ![alt text](https://github.com/unobatbayar/algorithms/blob/master/images/project7.gif)
 
-###### Image by kbjwes77, Available at: https://gfycat.com/gifs/search/algorithms
+###### [Image by kbjwes77](https://gfycat.com/flimsygivinghart-programming-algorithms-gamemaker-insertion)
