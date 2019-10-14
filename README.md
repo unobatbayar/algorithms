@@ -1,5 +1,5 @@
 # Algorithms
-computer science algorithms; searching, sorting, recursion, artificial intelligence, graph theory and more!
+Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, scheduling, graph theory and more!
 
 ![alt text](https://github.com/unobatbayar/algorithms/blob/master/images/project7.gif)
 
