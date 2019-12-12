@@ -4,7 +4,7 @@ Let's expand our knowledge of algorithms! General computer science algorithms; S
 ## Contribute
 - [ ] Finish all Algorithms
 
-As you see, most of the Algorithms are not complete and always being updated, but it will be complete eventually. So please feel free to contribute, complete and add more Computer Science Algorithms here. Don't forget to include your name in the README (Name, occupation, country). All contributions, big or small, will be accepted.
+As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more Computer Science Algorithms here. Don't forget to include your name in the README (Name, occupation, country). All contributions, big or small, will be accepted.
 
 ![alt text](https://github.com/unobatbayar/algorithms/blob/master/images/project7.gif)
 
