@@ -1,4 +1,0 @@
-// Backpropagation algorithm
-class backpropagation{
-
-}
