@@ -1,5 +1,5 @@
 # Algorithms
-Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, cryptography/hashing and more!
+Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption and more!
 
 ## Contribute
 As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more Computer Science Algorithms here. Don't forget to include your name in the README (Name, occupation, country). All contributions, big or small, will be accepted.
