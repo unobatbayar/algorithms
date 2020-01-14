@@ -8,6 +8,6 @@ As you see, most of the Algorithms are not complete and always being updated. So
 
 ###### [Image by kbjwes77](https://gfycat.com/flimsygivinghart-programming-algorithms-gamemaker-insertion)
 
-### Free Algorithms resources online
+### Useful resources
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
