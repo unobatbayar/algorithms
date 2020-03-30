@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/Algorithms/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> </> Built with ❤️️ on Earth</sub>
+  <sub> Built with ❤️️ on Earth</sub>
 </div>
 
 # About
