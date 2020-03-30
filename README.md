@@ -1,4 +1,17 @@
-# Algorithms
+<div align="center">
+
+  <h1><code>algorithms</code></h1>
+
+  <strong>Core computer science algorithms to build your foundation as an engineer.</strong>
+
+  <h3>
+    <a href="https://twitter.com/unobatbayar">Contact</a>
+  </h3>
+
+  <sub>Built with ❤️️ on Earth</sub>
+</div>
+
+# About
 Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption and more!
 
 ## Contribute
