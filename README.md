@@ -5,7 +5,7 @@
   <strong>Core computer science algorithms to build your foundation as an engineer.</strong>
 
   <h3>
-    <a href="https://twitter.com/unobatbayar">Contact</a>
+    <a href="https://github.com/unobatbayar/Algorithms/pull/new/master">Contribute</a>
   </h3>
 
   <sub>Built with ❤️️ on Earth</sub>
