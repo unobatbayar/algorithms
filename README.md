@@ -10,8 +10,6 @@
   <sub>Built with ❤️️ on Earth</sub>
 </div>
 
-###### [Gif image by kbjwes77](https://gfycat.com/flimsygivinghart-programming-algorithms-gamemaker-insertion)
-
 # About
 Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption and more!
 
