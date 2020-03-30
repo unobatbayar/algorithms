@@ -14,7 +14,7 @@
 Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption and more!
 
 ## 🏆 Contribute
-As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more algorithms here. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
+As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more algorithms here by forking, then creating pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
 ### Contributors
 - unobatbayar
 
