@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><code>Algorithms</code></h1>
+  <h1><code>algorithms</code></h1>
 
   <strong>Core computer science algorithms to build your foundation as an engineer.</strong>
 
