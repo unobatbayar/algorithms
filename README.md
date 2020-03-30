@@ -4,7 +4,7 @@
   <strong>Core computer science algorithms to build your foundation as a software engineer.</strong>
 
 <h3>
-    <a href="https://github.com/unobatbayar/Algorithms/pull/new/master">Contribute</a>
+    <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
 
   <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
