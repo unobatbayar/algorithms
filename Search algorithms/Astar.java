@@ -1,6 +1,6 @@
 /* A* Search Algorithm
-Learning and implementing a very popular algorithm and 
-one of the best approaches for pathfinding and graph traversals
+
+Extension of Dijkstra's algorithm using heuristics; Achieving better performance.
 
 source: https://www.geeksforgeeks.org/a-search-algorithm/
 @author unobatbayar
