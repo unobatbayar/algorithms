@@ -15,6 +15,8 @@ Let's expand our knowledge of algorithms! General computer science algorithms; S
 
 ## 🏆 Contribute
 As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more algorithms here. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
+### Contributors
+- unobatbayar
 
 ## 🎁 Useful resources
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
