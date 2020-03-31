@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> in part of algorithms and data-structures foundation.  </sub>
 </div>
 
 ## About
