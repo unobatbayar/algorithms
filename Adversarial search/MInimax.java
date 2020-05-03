@@ -2,12 +2,12 @@
 Your implementation will be differnet for your use while it retains the core algorithn. 
 @author unobatbayar
 */
-class minmax{
+class Minimax{
     public static void main(String[] args){
         //nothing
     }
 
-    public int[] minimax(Color[][] board, int depth, Color player, Color me, Color enemy) {
+    public int[] Minimax(Color[][] board, int depth, Color player, Color me, Color enemy) {
 
         Color[][] new_board = new Color[8][8];
 		for (int i = 0;i < 8;i++){
