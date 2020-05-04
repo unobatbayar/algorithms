@@ -22,5 +22,5 @@ Please feel free to contribute, complete and add more algorithms and data-struct
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
-<sub>Give feedback, ideas and more, here: <sub> 
+<sub>Give feedback, ideas and more: <br> <sub> 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
