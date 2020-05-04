@@ -1,7 +1,7 @@
 <div align="center">
-  <h1><code>algorithms</code></h1>
+  <h1><code>algorithms-data-structures</code></h1>
 
-  <strong>Core computer science algorithms to build your foundation as a software engineer.</strong>
+  <strong>Core computer science algorithms and data-structures to build your foundation as a software engineer.</strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
@@ -11,10 +11,10 @@
 </div>
 
 ## About
-Let's expand our knowledge of algorithms! General computer science algorithms; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption and more!
+Let's expand our knowledge of algorithms and data-structures! General computer science algorithms and data-structures; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption, trees, hashmaps, arrays and more!
 
 ## 🏆 Contribute
-As you see, most of the Algorithms are not complete and always being updated. So please feel free to contribute, complete and add more algorithms here by forking, then creating a pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
+Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
 
 ## 🎁 Useful resources
  - [Introduction to Algorithms 3rd Edition](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
