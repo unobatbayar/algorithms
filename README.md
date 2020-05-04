@@ -23,4 +23,5 @@ Please feel free to contribute, complete and add more algorithms and data-struct
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 ## 🚦 Feedback
-- Share your thoughts here [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
+- Share your thoughts here 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
