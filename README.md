@@ -1,17 +1,17 @@
 <div align="center">
-  <h1><code>algorithms-data-structures</code></h1>
+  <h1><code>algorithms-and-data-structures</code></h1>
 
-  <strong>Core computer science algorithms and data-structures to build your foundation as a software engineer.</strong>
+  <strong>Core computer science algorithms and data structures to build your foundation as a software engineer.</strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> in part of algorithms and data-structures foundation.  </sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for algorithms and data-structures foundation.  </sub>
 </div>
 
 ## About
-Let's expand our knowledge of algorithms and data-structures! General computer science algorithms and data-structures; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption, trees, hashmaps, arrays and more!
+Let's expand our knowledge of algorithms and data structures! General computer science algorithms and data structures; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption, trees, hashmaps, arrays and more! 
 
 ## 🏆 Contribute
 Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
@@ -22,3 +22,5 @@ Please feel free to contribute, complete and add more algorithms and data-struct
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
+<sub>Give feedback, ideas and more: <br> <sub> 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
