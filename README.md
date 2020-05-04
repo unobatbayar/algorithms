@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> in part of algorithms and data-structures foundation.  </sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for algorithms and data-structures foundation.  </sub>
 </div>
 
 ## About
@@ -22,3 +22,5 @@ Please feel free to contribute, complete and add more algorithms and data-struct
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
+## 🚦 Feedback
+- Share your thoughts here [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
