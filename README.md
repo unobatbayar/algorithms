@@ -4,7 +4,7 @@
   <strong>Core computer science algorithms and data structures to build your foundation as a software engineer.</strong>
 
 <h3>
-    <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
+    <a href="https://github.com/unobatbayar/algorithms-and-data-structures/pull/new/master">Contribute</a>
   </h3>
 
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning and sharing.  </sub>
