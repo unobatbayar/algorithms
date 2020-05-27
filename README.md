@@ -10,9 +10,6 @@
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning and sharing.  </sub>
 </div>
 
-## About
-Let's expand our knowledge of algorithms and data structures! General computer science algorithms and data structures; Searching, sorting, recursion, artificial intelligence, learning, scheduling, graph theory, encryption, trees, hashmaps, arrays and more! 
-
 ## 🏆 Contribute
 Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
 
