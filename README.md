@@ -11,7 +11,7 @@
 </div>
 
 ## 🏆 Contribute
-Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. Don't forget to include your username in the README. All contributions, big or small, will be accepted.
+Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. 
 
 ## 🎁 Useful resources
  - [Introduction to Algorithms 3rd Edition](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
