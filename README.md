@@ -10,7 +10,6 @@
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning and sharing.  </sub>
 </div>
 
-## 🏆 Contribute
 Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. 
 
 #### Sorting algorithms
@@ -52,9 +51,7 @@ vSHA256
  - [ ] Back propagation
  - [ ] ID3
 
-
-
-## 🎁 Useful resources
+## Useful resources
  - [Introduction to Algorithms 3rd Edition](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
  - [Data Structures &  Algorithms in Java 4th Edition](https://enos.itcollege.ee/~jpoial/algorithms/GT/Data%20Structures%20and%20Algorithms%20in%20Java%20Fourth%20Edition.pdf)
  - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
