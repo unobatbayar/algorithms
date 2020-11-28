@@ -27,7 +27,7 @@ Please feel free to contribute, complete and add more algorithms and data-struct
  - [ ] Shell sort
 
 #### Search algorithms
-[X] Binary search
+ - [ ] Binary search
  - [ ] A* search
  - [ ] BFS 
  - [ ] DFS
