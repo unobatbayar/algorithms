@@ -40,7 +40,7 @@
 ### Encryption techniques
  - [ ] Caesar Cipher
  - [ ] ROT13
-vSHA256
+ - [ ] SHA256
 
 ### Artificial Intelligence
  - [X] Minimax
