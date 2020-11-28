@@ -10,8 +10,6 @@
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning and sharing.  </sub>
 </div>
 
-Please feel free to contribute, complete and add more algorithms and data-structures here by simpling forking the project and making a pull request.
-
 #### Sorting algorithms
  - [X] Bubble sort
  - [X] Bucket sort 
