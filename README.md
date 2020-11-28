@@ -13,12 +13,15 @@
 ## 🏆 Contribute
 Please feel free to contribute, complete and add more algorithms and data-structures here by forking, then creating a pull request. 
 
-Done checklist
 #### Sorting algorithms
 [X] Bubble sort
+
 [X] Bucket sort 
+
 [ ] Comb sort
+
 [ ] Counting sort
+
 [ ] Heap sort
 [ ] Insertion sort
 [ ] Merge sort
