@@ -24,7 +24,7 @@
  - [ ] Shell sort
 
 #### Search algorithms
- - [ ] Binary search
+ - [X] Binary search
  - [ ] A* search
  - [ ] BFS 
  - [ ] DFS
