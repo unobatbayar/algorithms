@@ -58,6 +58,3 @@
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
  - [Java Cheat Sheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
  - [Computer Science](https://introcs.cs.princeton.edu/java/cs//)
-
-<sub>Give feedback, ideas and more: <br> <sub> 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
