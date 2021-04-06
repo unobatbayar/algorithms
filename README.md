@@ -13,7 +13,7 @@
 #### Sorting algorithms
  - [X] Bubble sort
  - [X] Bucket sort 
- - [ ] Comb sort
+ - [X] Comb sort
  - [ ] Counting sort
  - [ ] Heap sort
  - [ ] Insertion sort
