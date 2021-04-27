@@ -6,8 +6,6 @@
 <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
-
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning and sharing.  </sub>
 </div>
 
 #### Sorting algorithms
@@ -58,3 +56,4 @@
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
  - [Java Cheat Sheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
  - [Computer Science](https://introcs.cs.princeton.edu/java/cs//)
+ - [Algorithm Visualizer](https://algorithm-visualizer.org/)
