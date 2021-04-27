@@ -16,6 +16,5 @@
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
  - [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
- - [Java Cheat Sheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
  - [Computer Science](https://introcs.cs.princeton.edu/java/cs//)
 
