@@ -12,6 +12,7 @@ int main()
 
     // Pythagorean theorem to find distance of (x1, y1) and (x2, y2) coordinates
     // 𝑑=√(𝑥2−𝑥1)2+(𝑦2−𝑦1)2
+    // since pythagorean theorem is c2 = a2 + b2
     int distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
     prinft("%d", distance);
     return 0;
