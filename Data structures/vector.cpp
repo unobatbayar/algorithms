@@ -2,6 +2,15 @@
 #include <vector>
 using namespace std;
 
+/**
+ * @author code_report
+ * https://www.youtube.com/watch?v=24VAm8gzWq4
+ * 
+ * 
+ * push_back()  O(1)
+ * [] -> bracket operators O(1)
+ * size() O(1)
+ **/
 int main()
 {
 
