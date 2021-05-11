@@ -20,6 +20,6 @@ using namespace std;
 int main()
 {
 	map<int, int> m1;
-	
+	m1.insert(make_pair(20, 1)); // m = { (20, 1)}
 	return 0;
 }
