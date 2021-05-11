@@ -5,6 +5,10 @@ using namespace std;
 /**
  * Set does not contain a duplicate element. 
  * Upon insertion, set automatically sorts it
+ * 
+ * insert() O(log n)
+ * find() O(log n)
+ * size() O(1)
  **/
 
 int main()
