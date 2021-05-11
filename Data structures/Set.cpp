@@ -9,6 +9,7 @@ int main()
 	s1.insert(20);
 
 	auto a = s1.find(30);
-	cout << (a != s1.end() ? "found" : "nope");
+	cout << (a != s1.end() ? "found" : "nope") << endl;
+	cout << s1.size(); // Outputs 2
 	return 0;
 }
