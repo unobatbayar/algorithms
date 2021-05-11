@@ -10,6 +10,7 @@ using namespace std;
  * Unordered set does not contain a duplicate element. 
  * Upon insertion, set automatically sorts it but it can be any order
  * 
+ * Common methods
  * insert() O(1)
  * find() O(1)
  * size() O(1)
