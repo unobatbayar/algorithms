@@ -15,6 +15,7 @@ using namespace std;
  * find() O(log n) returns pair
  * [] -> bracket operators O(log n) if values exists returns ref to value, otherwise, inserts.
  * size() O(1)
+ * erase(val)
  **/
 
 int main()
