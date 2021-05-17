@@ -18,4 +18,4 @@
  - [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
  - [Computer Science](https://introcs.cs.princeton.edu/java/cs//)
- - If you can get a copy. Read "Design Patterns: Elements of Reusable Object-Oriented Software".
+ - Design Patterns: Elements of Reusable Object-Oriented Software
