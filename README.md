@@ -10,6 +10,7 @@
 
  ## Useful resources
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
+ - [C++ STL Algorithms](https://www.fluentcpp.com/getthemap/)
  - [Algorithm Visualizer](https://algorithm-visualizer.org/)
  - [Introduction to Algorithms 3rd Edition](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
  - [Data Structures &  Algorithms in Java 4th Edition](https://enos.itcollege.ee/~jpoial/algorithms/GT/Data%20Structures%20and%20Algorithms%20in%20Java%20Fourth%20Edition.pdf)
