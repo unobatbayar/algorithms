@@ -8,7 +8,7 @@
   </h3>
 </div>
 
- ## Useful resources
+ ## Useful links to external resources
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
  - [The World Map of C++ STL Algorithms](https://www.fluentcpp.com/getthemap/)
  - [Algorithm Visualizer](https://algorithm-visualizer.org/)
