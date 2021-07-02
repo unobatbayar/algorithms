@@ -10,7 +10,7 @@ using namespace std;
 
 struct edge {
     int nodes[2];
-    int cost; // add more if you need it
+    int cost; 
 };
 
 using graph = map<int, vector<edge> >;
