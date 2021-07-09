@@ -8,15 +8,13 @@
   </h3>
 </div>
 
- ## Useful links to external resources
+ ## Useful links and recommendation
  - [40 Algorithms Every Programmer Should Know](https://www.packtpub.com/product/40-algorithms-every-programmer-should-know/9781789801217)
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
  - [The World Map of C++ STL Algorithms](https://www.fluentcpp.com/getthemap/)
  - [Algorithm Visualizer](https://algorithm-visualizer.org/)
- - [Introduction to Algorithms 3rd Edition](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
- - [Data Structures &  Algorithms in Java 4th Edition](https://enos.itcollege.ee/~jpoial/algorithms/GT/Data%20Structures%20and%20Algorithms%20in%20Java%20Fourth%20Edition.pdf)
- - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf)
+ - [Data Structures &  Algorithms in Java 4th Edition](https://www.amazon.com/Data-Structures-Algorithms-Java-4th/dp/B003ZPBDBM)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
  - [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
- - [Computer Science](https://introcs.cs.princeton.edu/java/cs//)
+ - [Introduction to Computer Science](https://introcs.cs.princeton.edu/java/cs//)
