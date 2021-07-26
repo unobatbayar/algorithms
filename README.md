@@ -19,3 +19,5 @@
  - [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
  - [Introduction to Computer Science](https://introcs.cs.princeton.edu/java/cs//)
+ - [Introduction to Computer Science and Programming | MIT](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)
+ - [Programming Methodology | Stanford](https://www.youtube.com/watch?v=KkMDCCdjyW8&list=PL84A56BC7F4A1F852)
