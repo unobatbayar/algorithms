@@ -9,6 +9,7 @@
 </div>
 
  ## Useful resources
+ - [Concrete Mathematics: A Foundation for Computer Science, Second Edition](https://learning.oreilly.com/library/view/concrete-mathematics-a/9780134389974)
  - [C++](https://www.cplusplus.com)
  - [40 Algorithms Every Programmer Should Know](https://www.packtpub.com/product/40-algorithms-every-programmer-should-know/9781789801217)
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
