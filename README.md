@@ -9,6 +9,7 @@
 </div>
 
  ## Useful resources
+ - [C++](https://www.cplusplus.com)
  - [40 Algorithms Every Programmer Should Know](https://www.packtpub.com/product/40-algorithms-every-programmer-should-know/9781789801217)
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
  - [The World Map of C++ STL Algorithms](https://www.fluentcpp.com/getthemap/)
