@@ -15,6 +15,7 @@
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
  - [Algorithm Visualizer](https://algorithm-visualizer.org/)
  - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
+ - [Java Nibble - Algorithms](https://www.javanibble.com/sorting-algorithms/)
  - [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
  - [HackerRank Data Structures](https://www.hackerrank.com/domains/data-structures)
  - [Introduction to Computer Science | Princeton](https://introcs.cs.princeton.edu/java/cs//)
