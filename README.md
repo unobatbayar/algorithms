@@ -22,3 +22,4 @@
  - [Introduction to Computer Science and Programming | MIT](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)
  - [Programming Methodology | Stanford](https://www.youtube.com/watch?v=KkMDCCdjyW8&list=PL84A56BC7F4A1F852)
  - [Math and Algorithm for Competitive Programming](https://www.geeksforgeeks.org/math-in-competitive-programming/)
+ - [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
