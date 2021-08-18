@@ -1,7 +1,5 @@
 /*
 ROT13 algorithm (Rotate by 13 places) / Caesar Cipher derivative
-
-@author unobatbayar
 */
 #include <iostream>
 #include <cctype>
