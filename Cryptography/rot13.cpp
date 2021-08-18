@@ -10,6 +10,7 @@ string ROT13(string input)
 {
 
     string transformed;
+    
     for (size_t i = 0; i < input.size(); ++i)
     {
         if (isalpha(input[i]))
@@ -19,10 +20,7 @@ string ROT13(string input)
             else
                 transformed.append(1, input[i] - 13);
         }
-        else
-        {
-            transformed.append(1, input[i]);
-        }
+        else  transformed.append(1, input[i]);
     }
     return transformed;
 }
