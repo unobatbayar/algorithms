@@ -1,5 +1,12 @@
-class SHA256{
-    public static void main(String[] args){
-        
-    }
+/*
+SHA256
+
+@author unobatbayar
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
 }
