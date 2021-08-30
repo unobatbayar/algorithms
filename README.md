@@ -23,3 +23,4 @@
  - [Programming Methodology | Stanford](https://www.youtube.com/watch?v=KkMDCCdjyW8&list=PL84A56BC7F4A1F852)
  - [Math and Algorithm for Competitive Programming](https://www.geeksforgeeks.org/math-in-competitive-programming/)
  - [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
+ - [Graph Data Structure and Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
