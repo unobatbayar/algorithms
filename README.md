@@ -2,6 +2,7 @@
   <h1><code>WIP: algorithms</code></h1>
 
   <strong>Computer science algorithms and data structures to build your foundation as a Software Engineer</strong>
+  
   <sub> Made by <a href="https://www.github.com/unobatbayar">unobatbayar</a> for strong fundamentals. </sub>
 <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
