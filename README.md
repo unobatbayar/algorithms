@@ -3,7 +3,7 @@
 
   <strong>Computer science algorithms and data structures to build your foundation as a Software Engineer</strong>
   
-  <sub> Made by <a href="https://www.github.com/unobatbayar">unobatbayar</a> for strong fundamentals. </sub>
+  <sub> Thank you to all mathematicians and computer scientists who created these algorithms </sub>
 <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
