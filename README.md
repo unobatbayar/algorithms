@@ -2,9 +2,7 @@
   <h1><code>WIP: algorithms</code></h1>
 
   <strong>Computer science algorithms to build your foundation as a Software Engineer</strong>
-  
-  <sub> Thank you to all mathematicians and computer scientists who have created these algorithms </sub>
-<h3>
+  <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
   </h3>
 </div>
