@@ -9,7 +9,7 @@
 
 ## General foundation for Software Engineering
  
-It's better to strengthen your foundation of computer science and mathematics first.
+It's better to strengthen your foundation of computer science and mathematics first. Some sample sources:
 
 ### Computer Science
 
