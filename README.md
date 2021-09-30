@@ -9,12 +9,12 @@
 
 
 
-Software Engineer | 
+Algorithms | 
 ------------ | 
-programming |
-algorithms and data-structures | 
-computer science | 
-mathematics | 
+test |
+test | 
+test | 
+test | 
 
 ## General foundation for Software Engineering
  
