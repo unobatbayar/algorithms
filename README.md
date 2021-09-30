@@ -7,6 +7,15 @@
   </h3>
 </div>
 
+
+
+Algorithms | 
+------------ | 
+test |
+test | 
+test | 
+test | 
+
 ## General foundation for Software Engineering
  
 It's better to strengthen your foundation of computer science and mathematics first. Some sample sources:
