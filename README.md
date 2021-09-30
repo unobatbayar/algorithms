@@ -12,11 +12,8 @@
 Software Engineer | 
 ------------ | 
 programming |
------------- | 
 algorithms and data-structures | 
------------- | 
 computer science | 
------------- | 
 mathematics | 
 
 ## General foundation for Software Engineering
