@@ -9,7 +9,7 @@
 
 
 
-[algorithms](https://en.wikipedia.org/wiki/List_of_algorithms#General_combinatorial_algorithms) | 
+[algorithms](https://en.wikipedia.org/wiki/List_of_algorithms) | 
 ------------ | 
 test |
 test | 
