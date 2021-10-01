@@ -16,7 +16,7 @@ test |
 test | 
 [Randomized algorithms](https://en.wikipedia.org/wiki/Randomized_algorithm) | 
 
-## General foundation for Software Engineering
+## General foundation for Software Engineers
  
 It's better to strengthen your foundation of computer science and mathematics first. Some sample sources:
 
