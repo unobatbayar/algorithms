@@ -9,7 +9,7 @@
 
 
 
-Algorithms | 
+algorithms | 
 ------------ | 
 test |
 test | 
