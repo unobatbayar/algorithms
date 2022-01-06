@@ -31,10 +31,10 @@ It's better to strengthen your foundation of computer science and mathematics fi
  - [Computer Science from the Bottom Up](https://www.bottomupcs.com/)
 
 ### Mathematics
+ - [Start to Finish Mathematics Books](https://openlibrary.org/collections/learn-math-from-start-to-finish)
  - [Concrete Mathematics: A Foundation for Computer Science, Second Edition](https://learning.oreilly.com/library/view/concrete-mathematics-a/9780134389974)
-
-
  - [Fundamentals of University Mathematics, Third Edition](https://learning.oreilly.com/library/view/fundamentals-of-university/9780857092236/)
+ - [Math for Programmers](https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/)
 
 ## Algorithms
 General overview
