@@ -35,6 +35,7 @@ It's better to strengthen your foundation of computer science and mathematics fi
  - [Concrete Mathematics: A Foundation for Computer Science, Second Edition](https://learning.oreilly.com/library/view/concrete-mathematics-a/9780134389974)
  - [Fundamentals of University Mathematics, Third Edition](https://learning.oreilly.com/library/view/fundamentals-of-university/9780857092236/)
  - [Math for Programmers](https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/)
+ - [Geometry](https://www.brightstorm.com/math/geometry/reasoning-diagonals-angles-and-parallel-lines/)
 
 ## Algorithms
 General overview
