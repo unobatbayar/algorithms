@@ -8,7 +8,7 @@
 </div>
 
 
-# [What's an Algorithm?](https://brennan.io/2015/12/15/csf-algorithms/)
+[What's an Algorithm?](https://brennan.io/2015/12/15/csf-algorithms/)
 
 [algorithms](https://en.wikipedia.org/wiki/List_of_algorithms) | 
 ------------ | 
