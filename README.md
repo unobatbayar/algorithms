@@ -10,7 +10,8 @@
 
 [What's an Algorithm?](https://brennan.io/2015/12/15/csf-algorithms/)
 
-[algorithms](https://en.wikipedia.org/wiki/List_of_algorithms) | 
+## Structure
+[algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) | 
 ------------ | 
 test |
 test | 
