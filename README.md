@@ -7,9 +7,6 @@
   </h3>
 </div>
 
-
-[What's an Algorithm?](https://brennan.io/2015/12/15/csf-algorithms/)
-
 ## Structure
 [algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) | 
 ------------ | 
