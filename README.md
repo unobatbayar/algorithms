@@ -35,6 +35,7 @@ It's better to strengthen your foundation of computer science and mathematics fi
  - [Fundamentals of University Mathematics, Third Edition](https://learning.oreilly.com/library/view/fundamentals-of-university/9780857092236/)
  - [Math for Programmers](https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/)
  - [Geometry](https://www.brightstorm.com/math/geometry/reasoning-diagonals-angles-and-parallel-lines/)
+ - [Geometry and Algebra](https://susanleesensei.weebly.com/the-relationship-between-geometry-and-algebra.html)
 
 ## Algorithms
 General overview
