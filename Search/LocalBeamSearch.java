@@ -1,4 +1,4 @@
-// Local Beam Search Algorithm
-class LocalBeamSearch{
-
+//Simulated Annealing Search algorithm
+class SMS{
+    
 }
