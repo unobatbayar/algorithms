@@ -2,11 +2,11 @@
 using namespace std;
 
 /**
- * Selection Sort
-Worst complexity: n^2
-Average complexity: n^2
-Best complexity: n^2
-Space complexity: 1
+ * SelectionSort
+ * Worst complexity: n^2
+ * Average complexity: n^2
+ * Best complexity: n^2
+ * Space complexity: 1
 **/
 
 int main()
