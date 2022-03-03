@@ -5,6 +5,7 @@
 
   <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
-    <small>Not all algorithms are finished, please consider contributing</small>
   </h3>
 </div>
+
+Not all algorithms are finished, please consider contributing
