@@ -8,4 +8,4 @@
   </h3>
 </div>
 
-Not all algorithms are finished, please consider contributing
+Not all algorithms are finished, please consider contributing.
