@@ -1,5 +1,5 @@
 class Node {          // Node class
-  private:             // Access specifier
+  private:            // Access specifier
     int value;        // Attribute (int variable)
     Node next;        // Attribute (Node variable)
   
