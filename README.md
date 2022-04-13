@@ -3,7 +3,7 @@
 
   <strong>Algorithms and Data Structures to build your foundation as a Software Engineer.</strong>
   <br>
-  Create more efficient and optimized software.
+  To create more efficient and optimized software.
 
   <h3>
     <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
