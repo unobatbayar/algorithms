@@ -11,3 +11,5 @@
 ### Links
 
 - [Sorting algorithms visualized](https://www.youtube.com/user/bigpicturehero/videos)
+- [Mathematics HackerRank](https://www.hackerrank.com/domains/mathematics)
+- [Algorithms HackerRank](https://www.hackerrank.com/domains/algorithms)
