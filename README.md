@@ -8,6 +8,6 @@
   </h3>
 </div>
 
-### Learning
+### Links
 
 - [Sorting algorithms visualized](https://www.youtube.com/user/bigpicturehero/videos)
