@@ -3,9 +3,8 @@
 
   <strong>Algorithms to build your foundation as a Software Engineer</strong>
 
-  <h3>
-    <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
-  </h3>
+  [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=%40unobatbayar)](https://twitter.com/unobatbayar)
+
 </div>
 
 ### Graph Algorithms
