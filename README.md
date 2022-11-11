@@ -8,6 +8,6 @@
   </h3>
 </div>
 
-### Tutorial
+### Graph Algorithms
 
 - [Breadth First Search](https://www.youtube.com/watch?v=xlVX7dXLS64&t=34s)
