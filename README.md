@@ -8,8 +8,6 @@
   </h3>
 </div>
 
-### Links
+### Tutorial
 
-- [Sorting algorithms visualized](https://www.youtube.com/user/bigpicturehero/videos)
-- [Mathematics HackerRank](https://www.hackerrank.com/domains/mathematics)
-- [Algorithms HackerRank](https://www.hackerrank.com/domains/algorithms)
+- [Breadth First Search](https://www.youtube.com/watch?v=xlVX7dXLS64&t=34s)
