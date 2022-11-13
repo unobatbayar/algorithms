@@ -4,13 +4,16 @@ using namespace std;
 
 /**
  * Vectors are sequence containers representing arrays that can change in size.
+ * https://cplusplus.com/reference/vector/vector/
  **/
 int main()
 {
 
 	vector<int> v1;
 	v1.push_back(10);
-	v1.push_back(20);
+	v1.push_back(20); // add element to the back
+	v1.pop_back();    // delete last element
+	
 	for (int i = 0; i < v1.size(); ++i)
 	{
 		cout << v1[i] << endl;
