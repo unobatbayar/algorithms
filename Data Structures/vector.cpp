@@ -14,7 +14,7 @@ int main()
 	v1.push_back(20); // add element to the back
 	v1.pop_back();    // delete last element
 	
-	for (int i = 0; i < v1.size(); ++i)
+	while (!v1.empty())
 	{
 		cout << v1[i] << endl;
 	}
