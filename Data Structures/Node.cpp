@@ -12,11 +12,11 @@ class Node {          // Node class
     }
   
     // Getter
-    int getValue(){
+    int GetValue(){
       return value;
     }
    
-    Node getNext(){
+    Node GetNext(){
       return next;
     }
 };
