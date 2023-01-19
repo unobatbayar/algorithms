@@ -26,6 +26,8 @@
 
 ---
 ### Data Structures
+
+#### Array
 - ![Array](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg)
 
 
@@ -33,4 +35,4 @@
 ### Design Patterns
 
 #### Observer Pattern
-![UML class and sequence diagram](https://en.wikipedia.org/wiki/Observer_pattern#/media/File:W3sDesign_Observer_Design_Pattern_UML.jpg)
+- ![UML class and sequence diagram](https://en.wikipedia.org/wiki/Observer_pattern#/media/File:W3sDesign_Observer_Design_Pattern_UML.jpg)
