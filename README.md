@@ -30,7 +30,7 @@
 
 #### Array
 -  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="60%" height="60%">
-- Lucas Magnum (2018), '#SideNotes — Array — Abstract Data Type & Data Structure', Medium
+`Lucas Magnum (2018), '#SideNotes — Array — Abstract Data Type & Data Structure', Medium`
 
 
 ---
@@ -39,4 +39,4 @@
 #### Observer Pattern
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Observer_w_update.svg/500px-Observer_w_update.svg.png" width="60%" height="60%">
 
-- Gregorybleiker (2018), Observer pattern, Wikipedia
+`Gregorybleiker (2018), Observer pattern, Wikipedia`
