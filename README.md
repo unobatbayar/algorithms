@@ -6,7 +6,7 @@
   [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=%40unobatbayar)](https://twitter.com/unobatbayar)
 
 </div>
-
+---
 ### Algorithms
 
 #### Combinatorial
@@ -28,11 +28,11 @@
 ### Data Structures
 
 #### Array
-- ![Array](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg)
+- ![Array](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg | width=100)
 
 
 ---
 ### Design Patterns
 
 #### Observer Pattern
-- ![UML class and sequence diagram](https://en.wikipedia.org/wiki/Observer_pattern#/media/File:W3sDesign_Observer_Design_Pattern_UML.jpg)
+- ![UML class and sequence diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Observer_w_update.svg/500px-Observer_w_update.svg.png)
