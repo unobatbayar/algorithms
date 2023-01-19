@@ -7,6 +7,30 @@
 
 </div>
 
-### Graph Algorithms
+### Algorithms
 
+##### Combinatorial
+
+##### Cryptography
+
+##### Dynamic
+
+##### Graph
 - [Breadth First Search](https://www.youtube.com/watch?v=xlVX7dXLS64)
+
+##### Machine Learning
+
+##### Search
+
+##### Sorting
+
+---
+### Data Structures
+- ![Array](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg)
+
+
+---
+### Design Patterns
+
+##### Observer Pattern
+![UML class and sequence diagram](https://en.wikipedia.org/wiki/Observer_pattern#/media/File:W3sDesign_Observer_Design_Pattern_UML.jpg)
