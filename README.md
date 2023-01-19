@@ -29,11 +29,14 @@
 ### Data Structures
 
 #### Array
--  <img alt="Image by Lucas Magnum, available at: https://lucasmagnum.medium.com/sidenotes-array-abstract-data-type-data-structure-b154140c8305" src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="60%" height="60%">
+-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="60%" height="60%">
+- Lucas Magnum (2018), '#SideNotes — Array — Abstract Data Type & Data Structure', Medium
 
 
 ---
 ### Design Patterns
 
 #### Observer Pattern
-<img alt="Image from Wikipedia, Creating User: Gregorybleiker, available at: https://en.wikipedia.org/wiki/Observer_pattern" src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="60%" height="60%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Observer_w_update.svg/500px-Observer_w_update.svg.png" width="60%" height="60%">
+
+- Gregorybleiker (2018), Observer pattern, Wikipedia
