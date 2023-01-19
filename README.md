@@ -9,20 +9,20 @@
 
 ### Algorithms
 
-##### Combinatorial
+#### Combinatorial
 
-##### Cryptography
+#### Cryptography
 
-##### Dynamic
+#### Dynamic
 
-##### Graph
+#### Graph
 - [Breadth First Search](https://www.youtube.com/watch?v=xlVX7dXLS64)
 
-##### Machine Learning
+#### Machine Learning
 
-##### Search
+#### Search
 
-##### Sorting
+#### Sorting
 
 ---
 ### Data Structures
@@ -32,5 +32,5 @@
 ---
 ### Design Patterns
 
-##### Observer Pattern
+#### Observer Pattern
 ![UML class and sequence diagram](https://en.wikipedia.org/wiki/Observer_pattern#/media/File:W3sDesign_Observer_Design_Pattern_UML.jpg)
