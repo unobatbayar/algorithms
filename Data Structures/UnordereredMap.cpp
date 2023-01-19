@@ -17,13 +17,18 @@ using namespace std;
 
 int main() {
     
-	unordered_map<int, int> m1;
-	m1.insert(make_pair(20, 1)); // m = { (20, 1)}
-	m1[20]++;  // m = {20, 2} 
-	cout << m1[20] << endl;
+	// Let's map employee id
+	unordered_map<string, int> m1;
+	m1.insert(make_pair("John", 172397)); // m = {"John", 172397} 
 	
-	auto it = m1.find(20);
-	cout << (it != m1.end() ? "found" : "not found") << endl;
+	auto it = m1.find("John");
+	cout << (it != m1.end() ? "Employee found!" : "Not found.") << endl;
+
+	cout << "John's employee ID: " << m1["John"] << endl;
+	
+	// We can directly increment the value like array
+	m1["John"]++;  // m = {"John", 172398} 
+
 	return 0;
 }
 
