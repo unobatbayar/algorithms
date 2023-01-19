@@ -29,7 +29,7 @@
 ### Data Structures
 
 #### Array
-- ![Array](https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg | width=100)
+-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="100" height="100">
 
 
 ---
