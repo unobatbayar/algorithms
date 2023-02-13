@@ -8,32 +8,6 @@
 </div>
 
 ---
-### Algorithms
-
-#### Combinatorial
-
-#### Cryptography
-
-#### Dynamic
-
-#### Graph
-- [Breadth First Search](https://www.youtube.com/watch?v=xlVX7dXLS64)
-
-#### Machine Learning
-
-#### Search
-
-#### Sorting
-
----
-### Data Structures
-
-#### Array
--  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*TDrt1RUnaAF2JRD8.jpg" width="60%" height="60%">
-`Lucas Magnum (2018), '#SideNotes — Array — Abstract Data Type & Data Structure', Medium`
-
-
----
 ### Design Patterns
 
 #### Observer Pattern
