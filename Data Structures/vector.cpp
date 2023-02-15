@@ -14,9 +14,13 @@ int main()
 	v1.push_back(20); // add element to the back
 	v1.pop_back();    // delete last element
 	
-	while (!v1.empty())
-	{
-		cout << v1[i] << endl;
+	// while (!v1.empty())
+	// {
+		
+	// }
+
+	for(int i = 0; i<v1.size(); ++i){
+		out << v1[i] << endl;
 	}
 
 	cout << "vector size: " << v1.size();
