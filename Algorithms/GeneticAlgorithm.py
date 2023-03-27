@@ -1,5 +1,3 @@
-// Created with help of ChatGPT
-
 import random
 import matplotlib.pyplot as plt
 
