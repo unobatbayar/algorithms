@@ -71,7 +71,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 ## Miscellaneous
 
-- Bit Manipulation (AND, OR, XOR, Shifts)
+- ![Bit Manipulation (AND, OR, XOR, Shifts)](https://realpython.com/python-bitwise-operators/)
 - Backtracking Algorithms
 - Divide and Conquer Strategies
 - Greedy Algorithms
