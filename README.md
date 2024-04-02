@@ -6,7 +6,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 - Bubble Sort
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width="300" height="90" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width="300" height="180" />
   
 - Insertion Sort
 - Selection Sort
