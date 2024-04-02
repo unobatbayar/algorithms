@@ -1,4 +1,4 @@
-# Fundamental Algorithms for Software Engineers
+# Algorithms to build your foundation as a Software Engineer 
 
 As a software engineer, it's crucial to have a strong understanding of fundamental algorithms. Here's a list of essential algorithms that every software engineer should be familiar with:
 
