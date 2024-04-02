@@ -1,10 +1,3 @@
-<div align="center">
-  <h1><code>algorithms</code></h1>
-
-  <strong>Algorithms to build your foundation as a Software Engineer</strong>
-  
-</div>
-
 # Fundamental Algorithms for Software Engineers
 
 As a software engineer, it's crucial to have a strong understanding of fundamental algorithms. Here's a list of essential algorithms that every software engineer should be familiar with:
