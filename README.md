@@ -18,6 +18,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 ## Searching Algorithms
 
 - Linear Search
+<img src="https://sushrutkuchik.files.wordpress.com/2020/05/linear_search.gif" width="300" height="180"/>
 - Binary Search
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif" width="300" height="180" />
