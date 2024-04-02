@@ -7,7 +7,6 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 - Bubble Sort
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width="300" height="180" />
-  
 - Insertion Sort
 - Selection Sort
 - Merge Sort
@@ -20,6 +19,8 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 - Linear Search
 - Binary Search
+
+<img src="https://en.wikipedia.org/wiki/Binary_search_algorithm#/media/File:Binary-search-work.gif" width="480" height="270" />
 - Depth-First Search (DFS)
 - Breadth-First Search (BFS)
 
