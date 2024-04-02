@@ -20,7 +20,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 - Linear Search
 - Binary Search
 
-<img src="https://en.wikipedia.org/wiki/Binary_search_algorithm#/media/File:Binary-search-work.gif" width="480" height="270" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif" width="480" height="270" />
 - Depth-First Search (DFS)
 - Breadth-First Search (BFS)
 
