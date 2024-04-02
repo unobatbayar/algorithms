@@ -4,8 +4,9 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 ## Sorting Algorithms
 
-#### Bubble Sort
+### Bubble Sort
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" width="300" height="180" />
+
 - Insertion Sort
 - Selection Sort
 - Merge Sort
@@ -16,9 +17,10 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 ## Searching Algorithms
 
-#### Linear Search
+### Linear Search
 <img src="https://sushrutkuchik.files.wordpress.com/2020/05/linear_search.gif" width="300" height="122"/>
-#### Binary Search
+
+### Binary Search
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif" width="300" height="180" />
 - Depth-First Search (DFS)
 - Breadth-First Search (BFS)
