@@ -5,7 +5,9 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 ## Sorting Algorithms
 
 - Bubble Sort
+  
   <img src="https://commons.wikimedia.org/wiki/File:Bubble-sort-example-300px.gif" width="150" height="90" />
+
 - Insertion Sort
 - Selection Sort
 - Merge Sort
