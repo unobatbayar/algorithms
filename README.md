@@ -17,7 +17,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 ## Searching Algorithms
 
-### Linear Search
+### ![Linear Search](https://github.com/unobatbayar/algorithms/blob/master/Algorithms/linear_search.ipynb)
 <img src="https://sushrutkuchik.files.wordpress.com/2020/05/linear_search.gif" width="300" height="122"/>
 
 ### Binary Search
