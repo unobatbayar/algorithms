@@ -78,3 +78,8 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 - Randomized Algorithms
 - Parallel and Concurrent Algorithms
 
+---
+
+## See also
+
+- [Algorithms study cheatsheets](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
