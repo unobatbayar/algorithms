@@ -15,6 +15,9 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 - Counting Sort
 - Radix Sort
 
+### Bucket Sort
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224162956/ezgifcomgifmaker14.gif" width="300" height="300"/>
+
 ## Searching Algorithms
 
 ### ![Linear Search](https://github.com/unobatbayar/algorithms/blob/master/Algorithms/linear_search.ipynb)
