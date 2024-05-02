@@ -16,7 +16,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 - Radix Sort
 
 ### Bucket Sort
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224162956/ezgifcomgifmaker14.gif" width="300" height="300"/>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224162956/ezgifcomgifmaker14.gif" width="400" height="200"/>
 
 ## Searching Algorithms
 
