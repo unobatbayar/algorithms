@@ -22,7 +22,8 @@ Searching is used to find specific elements in data structures. These algorithms
 
 - **Linear Search**: A simple search algorithm that checks every element in the list one by one.
 - **Binary Search**: A more efficient search algorithm for sorted arrays. It repeatedly divides the search interval in half.
-- **Breadth-First Search (BFS)**: A graph traversal algorithm that explores nodes level by level.
+- **Breadth-First Search (BFS)**: A graph traversal algorithm that explores nodes level by level. ![](https://img.shields.io/static/v1?label=&message=learning&color=green)
+
 - **Depth-First Search (DFS)**: A graph traversal algorithm that explores as far as possible along each branch before backtracking.
 - **Jump Search**: An optimization of linear search for sorted arrays. It jumps ahead by a fixed number of elements and then performs a linear search within the block.
 - **Exponential Search**: A search algorithm that works for sorted arrays and has a time complexity of O(log n).
@@ -67,7 +68,7 @@ Graphs are fundamental data structures in computer science. Several algorithms a
 - **Floyd-Warshall Algorithm**: A dynamic programming algorithm for finding shortest paths between all pairs of vertices in a graph.
 - **Topological Sort**: A linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge, vertex u comes before vertex v.
 - **Kruskal’s and Prim’s Algorithms (MST)**: Used to find the Minimum Spanning Tree in a weighted graph.
-- **A* Search Algorithm**: A graph traversal and pathfinding algorithm that finds the shortest path between nodes, using heuristics to improve performance.
+- **A\* Search Algorithm**: A graph traversal and pathfinding algorithm that finds the shortest path between nodes, using heuristics to improve performance.
 
 ## 7. Backtracking Algorithms
 
