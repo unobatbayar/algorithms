@@ -6,7 +6,7 @@ As a software engineer, it's crucial to have a strong understanding of fundament
 
 Sorting is a fundamental operation in computer science that arranges elements in a specific order. Understanding sorting algorithms helps in both optimization and problem-solving.
 
-- **Bubble Sort**: A simple, inefficient sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. ![](https://img.shields.io/static/v1?label=&message=learned&color=green)
+- **Bubble Sort**: A simple, inefficient sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. ![](https://img.shields.io/static/v1?label=&message=learned&color=blue)
 - **Selection Sort**: An algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it into the correct position.
 - **Insertion Sort**: Builds the final sorted array one item at a time by inserting each new element into its correct position.
 - **Merge Sort**: A divide-and-conquer algorithm that divides the array into two halves, recursively sorts each half, and then merges the sorted halves.
@@ -22,7 +22,7 @@ Searching is used to find specific elements in data structures. These algorithms
 
 - **Linear Search**: A simple search algorithm that checks every element in the list one by one.
 - **Binary Search**: A more efficient search algorithm for sorted arrays. It repeatedly divides the search interval in half.
-- **Breadth-First Search (BFS)**: A graph traversal algorithm that explores nodes level by level. ![](https://img.shields.io/static/v1?label=&message=learning&color=blue)
+- **Breadth-First Search (BFS)**: A graph traversal algorithm that explores nodes level by level. ![](https://img.shields.io/static/v1?label=&message=learning&color=green)
 
 - **Depth-First Search (DFS)**: A graph traversal algorithm that explores as far as possible along each branch before backtracking.
 - **Jump Search**: An optimization of linear search for sorted arrays. It jumps ahead by a fixed number of elements and then performs a linear search within the block.
