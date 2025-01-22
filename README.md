@@ -89,6 +89,11 @@ These are additional fundamental algorithms that don't fit neatly into the categ
 - **Rabin-Karp String Matching Algorithm**: A string searching algorithm that uses hashing to find patterns in a text.
 - **Bit Manipulation Algorithms**: Algorithms that use bitwise operators to solve problems, like checking if a number is a power of 2 or finding the Hamming weight (number of 1’s in the binary representation).
 
+## Big O notation
+
+- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
+- ![Learn Big O notation in 6 minutes](../public/big_o.png)[(Youtube)](https://www.youtube.com/watch?v=XMUe3zFhM5c)
+
 ## See also
 
 - [Bit Manipulation (AND, OR, XOR, Shifts)](https://realpython.com/python-bitwise-operators/)
