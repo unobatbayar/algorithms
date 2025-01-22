@@ -92,7 +92,7 @@ These are additional fundamental algorithms that don't fit neatly into the categ
 ## Big O notation
 
 - [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- ![Learn Big O notation in 6 minutes](../public/big_o.png)[(Youtube)](https://www.youtube.com/watch?v=XMUe3zFhM5c)
+- ![Learn Big O notation in 6 minutes](https://raw.githubusercontent.com/unobatbayar/algorithms/refs/heads/master/public/big_o.png)[(Youtube)](https://www.youtube.com/watch?v=XMUe3zFhM5c)
 
 ## See also
 
