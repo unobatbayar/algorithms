@@ -1,101 +1,489 @@
-## Fundamental Algorithms for Software Engineers
+# 🚀 Algorithms & Data Structures Repository
 
-As a software engineer, it's crucial to have a strong understanding of fundamental algorithms. Here's a list of essential algorithms that every software engineer should be familiar with:
+A comprehensive collection of fundamental algorithms, data structures, and design patterns implemented in Python and TypeScript. Perfect for learning, interviews, and reference.
 
-## 1. Sorting Algorithms
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Sorting is a fundamental operation in computer science that arranges elements in a specific order. Understanding sorting algorithms helps in both optimization and problem-solving.
+---
 
-- **Bubble Sort**: A simple, inefficient sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. ![](https://img.shields.io/static/v1?label=&message=learned&color=blue)
-- **Selection Sort**: An algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it into the correct position.
-- **Insertion Sort**: Builds the final sorted array one item at a time by inserting each new element into its correct position.
-- **Merge Sort**: A divide-and-conquer algorithm that divides the array into two halves, recursively sorts each half, and then merges the sorted halves.
-- **Quick Sort**: Another divide-and-conquer algorithm that partitions the array around a pivot and recursively sorts the sub-arrays.
-- **Heap Sort**: Utilizes a binary heap to sort elements. It’s efficient but not stable.
-- **Counting Sort**: A non-comparative integer sorting algorithm that counts occurrences of each element.
-- **Radix Sort**: A non-comparative sorting algorithm that sorts numbers digit by digit starting from the least significant digit.
-- **Bucket Sort**: Divides the range of input elements into several "buckets" and sorts each bucket individually.
+## 📚 Table of Contents
 
-## 2. Searching Algorithms
+- [Sorting Algorithms](#-sorting-algorithms)
+- [Searching Algorithms](#-searching-algorithms)
+- [Graph Algorithms](#-graph-algorithms)
+- [String Algorithms](#-string-algorithms)
+- [Optimization Algorithms](#-optimization-algorithms)
+- [Data Structures](#-data-structures)
+- [Design Patterns](#-design-patterns)
+- [CS Concepts](#-cs-concepts)
+- [Big O Notation](#-big-o-notation)
 
-Searching is used to find specific elements in data structures. These algorithms are foundational for tasks like data retrieval.
+---
 
-- **Linear Search**: A simple search algorithm that checks every element in the list one by one.
-- **Binary Search**: A more efficient search algorithm for sorted arrays. It repeatedly divides the search interval in half.
-- **Breadth-First Search (BFS)**: A graph traversal algorithm that explores nodes level by level. ![](https://img.shields.io/static/v1?label=&message=learning&color=green)
+## 🔄 Sorting Algorithms
 
-- **Depth-First Search (DFS)**: A graph traversal algorithm that explores as far as possible along each branch before backtracking.
-- **Jump Search**: An optimization of linear search for sorted arrays. It jumps ahead by a fixed number of elements and then performs a linear search within the block.
-- **Exponential Search**: A search algorithm that works for sorted arrays and has a time complexity of O(log n).
+Sorting algorithms arrange elements in a specific order. Here's a visual comparison:
 
-## 3. Dynamic Programming
+```
+Input: [64, 34, 25, 12, 22, 11, 90]
 
-Dynamic programming (DP) is a method for solving problems by breaking them down into simpler subproblems. It avoids redundant calculations by storing the results of subproblems.
+Bubble Sort:    [64,34,25,12,22,11,90] → Compare & swap adjacent elements
+                [34,64,25,12,22,11,90] → Repeat until sorted
+                ...
+                [11,12,22,25,34,64,90] ✓
 
-- **Fibonacci Sequence (Recursive & Memoized)**: Classic example of using dynamic programming to avoid redundant recursive calls.
-- **Knapsack Problem**: Involves selecting a subset of items with given weights and values to maximize the total value without exceeding the weight capacity.
-- **Longest Common Subsequence (LCS)**: Finds the longest subsequence common to two sequences.
-- **Longest Increasing Subsequence (LIS)**: Finds the longest subsequence of a sequence that is strictly increasing.
-- **Matrix Chain Multiplication**: Optimizes the order of matrix multiplications to minimize the number of scalar multiplications.
-- **Edit Distance (Levenshtein Distance)**: Measures the difference between two strings in terms of the minimum number of operations (insertions, deletions, or substitutions) required to transform one string into the other.
+Quick Sort:     [64,34,25,12,22,11,90]
+                ↓ Pick pivot (64)
+                [34,25,12,22,11] | 64 | [90]
+                ↓ Recursively sort
+                [11,12,22,25,34] | 64 | [90] ✓
+```
 
-## 4. Greedy Algorithms
+### Complexity Comparison
 
-Greedy algorithms make a series of choices by choosing the best option at each step, with the hope of finding the optimal solution.
+| Algorithm | Best | Average | Worst | Space | Stable | File |
+|-----------|------|---------|-------|-------|--------|------|
+| **Bubble Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | [`bubble_sort.py`](Algorithms/bubble_sort.py) |
+| **Selection Sort** | O(n²) | O(n²) | O(n²) | O(1) | ❌ | [`selection_sort.py`](Algorithms/selection_sort.py) |
+| **Insertion Sort** | O(n) | O(n²) | O(n²) | O(1) | ✅ | [`insertion_sort.py`](Algorithms/insertion_sort.py) |
+| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | ✅ | [`merge_sort.py`](Algorithms/merge_sort.py) |
+| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(log n) | ❌ | [`quick_sort.py`](Algorithms/quick_sort.py) |
+| **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | ❌ | [`heap_sort.py`](Algorithms/heap_sort.py) |
+| **Counting Sort** | O(n+k) | O(n+k) | O(n+k) | O(k) | ✅ | [`counting_sort.py`](Algorithms/counting_sort.py) |
+| **Radix Sort** | O(d(n+k)) | O(d(n+k)) | O(d(n+k)) | O(n+k) | ✅ | [`radix_sort.py`](Algorithms/radix_sort.py) |
+| **Bucket Sort** | O(n+k) | O(n+k) | O(n²) | O(n+k) | ✅ | [`bucket_sort.py`](Algorithms/bucket_sort.py) |
+| **Shell Sort** | O(n log n) | O(n^1.5) | O(n²) | O(1) | ❌ | [`shell_sort.py`](Algorithms/shell_sort.py) |
+| **Comb Sort** | O(n log n) | O(n²/2^p) | O(n²) | O(1) | ❌ | [`comb_sort.py`](Algorithms/comb_sort.py) |
+| **Intro Sort** | O(n log n) | O(n log n) | O(n log n) | O(log n) | ❌ | [`intro_sort.py`](Algorithms/intro_sort.py) |
 
-- **Activity Selection Problem**: Select the maximum number of activities that can be performed by a single person given their start and finish times.
-- **Fractional Knapsack Problem**: A variant of the knapsack problem where you can take fractions of items (instead of whole items).
-- **Huffman Coding**: A lossless data compression algorithm that assigns variable-length codes to input characters, with shorter codes assigned to more frequent characters.
-- **Prim’s and Kruskal’s Algorithms (Minimum Spanning Tree)**: Used to find the minimum spanning tree of a graph, which connects all the vertices with the minimum possible total edge weight.
-- **Dijkstra’s Algorithm**: Used for finding the shortest path between nodes in a graph with non-negative edge weights.
+### Visual: Merge Sort Process
 
-## 5. Divide and Conquer
+```
+                    [64, 34, 25, 12, 22, 11, 90]
+                           /              \
+                  [64, 34, 25, 12]    [22, 11, 90]
+                     /        \          /      \
+              [64, 34]  [25, 12]   [22, 11]  [90]
+               /   \     /   \      /   \      |
+            [64]  [34] [25] [12] [22] [11]   [90]
+               \   /     \   /      \   /      |
+              [34, 64] [12, 25]  [11, 22]    [90]
+                 \      /          \      /
+              [12, 25, 34, 64]  [11, 22, 90]
+                     \              /
+              [11, 12, 22, 25, 34, 64, 90] ✓
+```
 
-Divide and conquer is an algorithmic paradigm that breaks a problem into smaller subproblems, solves them recursively, and combines their results.
+---
 
-- **Merge Sort**: A divide-and-conquer algorithm for sorting, which recursively divides the array and then merges the sorted arrays.
-- **Quick Sort**: Another divide-and-conquer sorting algorithm that partitions the array and sorts each partition recursively.
-- **Binary Search**: A classic divide-and-conquer search algorithm that operates on a sorted list by repeatedly dividing the search space in half.
+## 🔍 Searching Algorithms
 
-## 6. Graph Algorithms
+### Linear vs Binary Search
 
-Graphs are fundamental data structures in computer science. Several algorithms are designed to traverse and optimize graphs.
+```
+Linear Search:  [1, 3, 5, 7, 9, 11, 13]  Find: 7
+                ↑  ↑  ↑  ↑  ✓ Found at index 3
+                O(n) - checks each element
 
-- **Breadth-First Search (BFS)**: Traverses a graph level by level, starting from a root node.
-- **Depth-First Search (DFS)**: Traverses a graph by going as deep as possible along each branch before backtracking.
-- **Dijkstra’s Algorithm**: Finds the shortest path in a graph with non-negative weights from a starting node to all other nodes.
-- **Bellman-Ford Algorithm**: Finds the shortest path in a graph, similar to Dijkstra, but can handle negative weights.
-- **Floyd-Warshall Algorithm**: A dynamic programming algorithm for finding shortest paths between all pairs of vertices in a graph.
-- **Topological Sort**: A linear ordering of vertices in a Directed Acyclic Graph (DAG) such that for every directed edge, vertex u comes before vertex v.
-- **Kruskal’s and Prim’s Algorithms (MST)**: Used to find the Minimum Spanning Tree in a weighted graph.
-- **A\* Search Algorithm**: A graph traversal and pathfinding algorithm that finds the shortest path between nodes, using heuristics to improve performance.
+Binary Search:  [1, 3, 5, 7, 9, 11, 13]  Find: 7
+                ↑      ↑      ↑
+                low   mid    high
+                [1,3,5,7] ← 7 is here
+                [5,7] ← 7 is here
+                [7] ✓ Found!
+                O(log n) - halves search space
+```
 
-## 7. Backtracking Algorithms
+| Algorithm | Best | Average | Worst | Space | File |
+|-----------|------|---------|-------|-------|------|
+| **Linear Search** | O(1) | O(n) | O(n) | O(1) | [`linear_search.py`](Algorithms/linear_search.py) |
+| **Binary Search** | O(1) | O(log n) | O(log n) | O(1) | [`binary_search.py`](Algorithms/binary_search.py) |
+| **Breadth-First Search** | O(V+E) | O(V+E) | O(V+E) | O(V) | [`breadth_first_search.py`](Algorithms/breadth_first_search.py) |
+| **Depth-First Search** | O(V+E) | O(V+E) | O(V+E) | O(V) | [`depth_first_search.py`](Algorithms/depth_first_search.py) |
+| **A\* Search** | O(b^d) | O(b^d) | O(b^d) | O(b^d) | [`a_star.py`](Algorithms/a_star.py) |
+| **Iterative Deepening** | O(b^d) | O(b^d) | O(b^d) | O(bd) | [`iterative_deepening_search.py`](Algorithms/iterative_deepening_search.py) |
+| **Uniform Cost Search** | O((V+E)log V) | O((V+E)log V) | O((V+E)log V) | O(V) | [`uniform_cost_search.py`](Algorithms/uniform_cost_search.py) |
 
-Backtracking is used to solve problems by trying to build a solution incrementally, and abandoning a solution as soon as it is determined to be invalid.
+### Graph Traversal Visualization
 
-- **N-Queens Problem**: Place N queens on an N×N chessboard such that no two queens threaten each other.
-- **Sudoku Solver**: Uses backtracking to try different placements of numbers in a grid until a solution is found.
-- **Subset Sum Problem**: Finds a subset of numbers that add up to a given sum.
+```
+BFS (Level by level):        DFS (Deep first):
+        A                            A
+       / \                          / \
+      B   C                        B   C
+     / \   \                      /   / \
+    D   E   F                    D   E   F
 
-## 8. Miscellaneous Algorithms
+BFS Order: A → B → C → D → E → F
+DFS Order: A → B → D → E → C → F
+```
 
-These are additional fundamental algorithms that don't fit neatly into the categories above but are important for software engineering.
+---
 
-- **Euclid’s Algorithm (GCD)**: Finds the greatest common divisor (GCD) of two numbers using the Euclidean algorithm.
-- **Sieve of Eratosthenes**: Finds all prime numbers up to a given limit using a sieve technique.
-- **Ternary Search**: A divide-and-conquer search algorithm that works on unimodal functions or ordered arrays.
-- **KMP (Knuth-Morris-Pratt) String Matching Algorithm**: Efficient string matching algorithm for finding occurrences of a substring in a string.
-- **Rabin-Karp String Matching Algorithm**: A string searching algorithm that uses hashing to find patterns in a text.
-- **Bit Manipulation Algorithms**: Algorithms that use bitwise operators to solve problems, like checking if a number is a power of 2 or finding the Hamming weight (number of 1’s in the binary representation).
+## 🕸️ Graph Algorithms
 
-## Big O notation
+### Shortest Path Algorithms
 
-- ![Learn Big O notation in 6 minutes](https://raw.githubusercontent.com/unobatbayar/algorithms/refs/heads/master/public/big_o.png)
-- [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation)
-- [Learn Big O notation in 6 minutes](https://www.youtube.com/watch?v=XMUe3zFhM5c)
+```
+Graph:        Dijkstra's (from A):      Bellman-Ford (from A):
+   A─4─B          A: 0                    A: 0
+   │   │          B: 4                    B: 4
+   2   5          C: 2                    C: 2
+   │   │          D: 9                    D: 9
+   C─1─D          E: 12                   E: 12
+    \ /
+     10
+      E
+```
 
-## See also
+| Algorithm | Time Complexity | Space | Handles Negative Weights | File |
+|-----------|----------------|-------|-------------------------|------|
+| **Dijkstra's** | O((V+E) log V) | O(V) | ❌ | [`dijkstra.py`](Algorithms/dijkstra.py) |
+| **Bellman-Ford** | O(VE) | O(V) | ✅ | [`bellman_ford.py`](Algorithms/bellman_ford.py) |
+| **Floyd-Warshall** | O(V³) | O(V²) | ✅ | [`floyd_warshall.py`](Algorithms/floyd_warshall.py) |
+| **A\*** | O(b^d) | O(b^d) | ❌ | [`a_star.py`](Algorithms/a_star.py) |
 
-- [Bit Manipulation (AND, OR, XOR, Shifts)](https://realpython.com/python-bitwise-operators/)
-- [Algorithms study cheatsheets](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
+### Minimum Spanning Tree
+
+```
+Original Graph:          Kruskal's MST:        Prim's MST:
+   A─4─B                    A─4─B                A─4─B
+   │\ │\                   │   │                │   │
+   2│ ││5                  2   │5               2   │5
+   │ \││                   │   │                │   │
+   C─1─D                   C─1─D                C─1─D
+    \ /                      \ /                  \ /
+     10                       10                   10
+      E                        E                    E
+```
+
+| Algorithm | Time Complexity | File |
+|-----------|----------------|------|
+| **Kruskal's MST** | O(E log E) | [`kruskal_mst.py`](Algorithms/kruskal_mst.py) |
+| **Prim's MST** | O(E log V) | [`prim_mst.py`](Algorithms/prim_mst.py) |
+
+### Other Graph Algorithms
+
+- **Connected Components** - [`connected_components.py`](Algorithms/connected_components.py)
+- **Graph Coloring** - [`graph_coloring.py`](Algorithms/graph_coloring.py)
+- **Topological Sort** - [`topological_sort.py`](Algorithms/topological_sort.py)
+- **Max Flow / Min Cut** - [`max_flow_min_cut.py`](Algorithms/max_flow_min_cut.py)
+
+---
+
+## 🔤 String Algorithms
+
+### String Matching Visualization
+
+```
+Text:    "ABABDABACDABABCABCAB"
+Pattern: "ABABCABAB"
+
+KMP:     Uses failure function to skip characters
+         ABABCABAB
+         └─┘ (match prefix "AB")
+         On mismatch, skip to next possible match
+
+Rabin-Karp: Uses rolling hash
+            Hash(pattern) = hash("ABABCABAB")
+            Compare hash of each substring
+            If hash matches, verify actual match
+```
+
+| Algorithm | Time Complexity | Space | File |
+|-----------|----------------|-------|------|
+| **KMP** | O(n + m) | O(m) | [`kmp_string_matching.py`](Algorithms/kmp_string_matching.py) |
+| **Rabin-Karp** | O(n + m) avg, O(nm) worst | O(1) | [`rabin_karp.py`](Algorithms/rabin_karp.py) |
+
+---
+
+## 🎯 Optimization Algorithms
+
+### Simulated Annealing Process
+
+```
+Temperature: 1000° → 500° → 250° → 125° → ...
+              ↓       ↓      ↓      ↓
+Acceptance:  High → Medium → Low → Very Low
+              ↓       ↓      ↓      ↓
+Exploration: Wide → Narrow → Fine → Local
+```
+
+| Algorithm | Use Case | File |
+|-----------|----------|------|
+| **Simulated Annealing** | Global optimization, TSP | [`simulated_annealing.py`](Algorithms/simulated_annealing.py) |
+| **Hill Climbing** | Local optimization | [`hill_climbing.py`](Algorithms/hill_climbing.py) |
+| **Genetic Algorithm** | Evolutionary optimization | [`GeneticAlgorithm.py`](Algorithms/GeneticAlgorithm.py) |
+
+---
+
+## 📊 Data Structures
+
+### Visual Comparison
+
+```
+Array:        [1, 2, 3, 4, 5]
+              O(1) access, O(n) insert/delete
+
+Linked List:  1 → 2 → 3 → 4 → 5
+              O(n) access, O(1) insert/delete
+
+Stack:        [Top] 3
+                ↓   2
+                ↓   1
+              LIFO (Last In, First Out)
+
+Queue:        1 → 2 → 3 → [Front]
+              FIFO (First In, First Out)
+
+Binary Tree:       5
+                  / \
+                 3   7
+                / \ / \
+               2  4 6  8
+
+Hash Table:   Key → Hash → Index → Value
+              "apple" → hash → 3 → "red"
+              O(1) average lookup
+```
+
+### Complexity Table
+
+| Data Structure | Access | Search | Insert | Delete | File |
+|----------------|--------|--------|--------|--------|------|
+| **Array** | O(1) | O(n) | O(n) | O(n) | [`array.py`](Data%20Structures/array.py) |
+| **Linked List** | O(n) | O(n) | O(1) | O(1) | [`linked_list.py`](Data%20Structures/linked_list.py) |
+| **Stack** | O(1) | O(n) | O(1) | O(1) | [`stack.py`](Data%20Structures/stack.py) |
+| **Queue** | O(1) | O(n) | O(1) | O(1) | [`queue.py`](Data%20Structures/queue.py) |
+| **Binary Tree** | O(n) | O(n) | O(n) | O(n) | [`binary_tree.py`](Data%20Structures/binary_tree.py) |
+| **BST** | O(log n) | O(log n) | O(log n) | O(log n) | [`binary_search_tree.py`](Data%20Structures/binary_search_tree.py) |
+| **Heap** | O(1) | O(n) | O(log n) | O(log n) | [`heap.py`](Data%20Structures/heap.py) |
+| **Hash Table** | O(1) | O(1) | O(1) | O(1) | [`hash_table.py`](Data%20Structures/hash_table.py) |
+| **Trie** | O(m) | O(m) | O(m) | O(m) | [`trie.py`](Data%20Structures/trie.py) |
+| **Graph** | O(V+E) | O(V+E) | O(1) | O(V+E) | [`graph.py`](Data%20Structures/graph.py) |
+
+---
+
+## 🎨 Design Patterns
+
+### Pattern Categories
+
+```
+Creational Patterns          Structural Patterns         Behavioral Patterns
+──────────────────          ──────────────────         ──────────────────
+┌─────────────┐             ┌─────────────┐            ┌─────────────┐
+│  Singleton  │             │   Adapter   │            │  Observer   │
+│  Factory    │             │  Decorator  │            │  Strategy   │
+│  Builder    │             │   Facade    │            │  Command    │
+│  Prototype  │             │   Proxy     │            │  Iterator   │
+│Abstract Fact│             │   Bridge    │            │   State     │
+│             │             │  Composite  │            │  Visitor    │
+│             │             │  Flyweight  │            │  Mediator   │
+└─────────────┘             └─────────────┘            │  Memento    │
+                                                       │  Template   │
+                                                       │  Chain of   │
+                                                       │Responsibility│
+                                                       └─────────────┘
+```
+
+### Quick Reference
+
+| Pattern | Purpose | File |
+|---------|---------|------|
+| **Singleton** | Single instance | [`singleton.py`](Design%20Patterns/Creational%20Patterns/singleton.py) |
+| **Factory** | Object creation | [`factory_method.py`](Design%20Patterns/Creational%20Patterns/factory_method.py) |
+| **Observer** | Event notification | [`observer.py`](Design%20Patterns/Behavioral%20Patterns/observer.py) |
+| **Strategy** | Algorithm selection | [`strategy.py`](Design%20Patterns/Behavioral%20Patterns/strategy.py) |
+| **Decorator** | Add behavior dynamically | [`decorator.py`](Design%20Patterns/Structural%20Patterns/decorator.py) |
+
+See [Design Patterns README](Design%20Patterns/README.md) for complete list.
+
+---
+
+## 💻 CS Concepts (TypeScript)
+
+Modern software development concepts with TypeScript examples:
+
+```
+┌─────────────────────────────────────────┐
+│  TypeScript Concepts                    │
+├─────────────────────────────────────────┤
+│  ✓ Interfaces & Types                   │
+│  ✓ Generics & Constraints               │
+│  ✓ Async/Await & Promises               │
+│  ✓ Functional Programming               │
+│  ✓ Type Guards & Utilities              │
+│  ✓ Design Patterns in TS                │
+└─────────────────────────────────────────┘
+```
+
+- **Interfaces** - [`interfaces.ts`](CS%20Concepts/interfaces.ts)
+- **Types & Generics** - [`types_and_generics.ts`](CS%20Concepts/types_and_generics.ts)
+- **Async/Promises** - [`async_promises.ts`](CS%20Concepts/async_promises.ts)
+- **Functional Programming** - [`functional_programming.ts`](CS%20Concepts/functional_programming.ts)
+- **Type Guards** - [`type_guards_and_utilities.ts`](CS%20Concepts/type_guards_and_utilities.ts)
+- **Design Patterns** - [`design_patterns_typescript.ts`](CS%20Concepts/design_patterns_typescript.ts)
+
+See [CS Concepts README](CS%20Concepts/README.md) for details.
+
+---
+
+## 📈 Big O Notation
+
+Understanding algorithm efficiency:
+
+```
+Complexity    Name          Example Operations
+─────────────────────────────────────────────────
+O(1)          Constant      Array access, hash lookup
+O(log n)      Logarithmic   Binary search, tree operations
+O(n)          Linear        Linear search, array iteration
+O(n log n)    Linearithmic  Merge sort, heap sort
+O(n²)         Quadratic     Bubble sort, nested loops
+O(2ⁿ)         Exponential   Recursive Fibonacci
+O(n!)         Factorial     Permutations
+```
+
+### Visual Complexity Comparison
+
+```
+Operations
+    │
+    │  O(n!)
+    │   ╱
+    │  ╱
+    │ ╱ O(2ⁿ)
+    │╱
+    ├───── O(n²)
+    │  ╲
+    │   ╲ O(n log n)
+    │    ╲
+    │     ╲ O(n)
+    │      ╲
+    │       ╲ O(log n)
+    │        ╲
+    │         ╲ O(1)
+    └──────────┴──────────→ Input Size
+```
+
+![Big O Complexity Chart](public/big_o.png)
+
+**Resources:**
+- [Big O Notation (Wikipedia)](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Learn Big O in 6 Minutes (Video)](https://www.youtube.com/watch?v=XMUe3zFhM5c)
+
+---
+
+## 🧮 Other Algorithms
+
+### Mathematical & Utility Algorithms
+
+- **Fibonacci** - [`fibonacci.py`](Algorithms/fibonacci.py) - Multiple implementations (recursive, iterative, memoized)
+- **GCD/LCM** - [`gcd_lcm.py`](Algorithms/gcd_lcm.py) - Euclidean algorithm
+- **Sieve of Eratosthenes** - [`sieve_of_eratosthenes.py`](Algorithms/sieve_of_eratosthenes.py) - Prime number generation
+- **Integer Partition** - [`integer_partition.py`](Algorithms/integer_partition.py) - Combinatorics
+- **Caesar Cipher** - [`caesar_cipher.py`](Algorithms/caesar_cipher.py) - Basic encryption
+
+### Advanced Algorithms
+
+- **Union-Find** - [`union_find.py`](Algorithms/union_find.py) - Disjoint set union
+- **Page Rank** - [`page_rank.ipynb`](Algorithms/page_rank.ipynb) - Web page ranking
+- **Catalan Numbers** - [`calatan_numbers.ipynb`](Algorithms/calatan_numbers.ipynb) - Combinatorial sequence
+
+---
+
+## 📖 How to Use
+
+### Running Python Algorithms
+
+```bash
+# Run any algorithm file
+python Algorithms/bubble_sort.py
+
+# Or import in your code
+from Algorithms.bubble_sort import bubble_sort
+
+arr = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr)
+print(arr)  # [11, 12, 22, 25, 34, 64, 90]
+```
+
+### Using TypeScript Concepts
+
+```bash
+# Install TypeScript
+npm install -g typescript
+
+# Compile TypeScript files
+tsc CS\ Concepts/interfaces.ts
+
+# Or use with a bundler
+```
+
+### Using Data Structures
+
+```python
+from Data_Structures.linked_list import LinkedList
+
+ll = LinkedList()
+ll.append(1)
+ll.append(2)
+ll.append(3)
+print(ll)  # 1 -> 2 -> 3
+```
+
+---
+
+## 🎯 Learning Path
+
+### Beginner
+1. Start with **Linear Search** and **Bubble Sort**
+2. Learn **Arrays** and **Linked Lists**
+3. Understand **Stack** and **Queue**
+
+### Intermediate
+1. Master **Binary Search** and **Quick Sort**
+2. Learn **Trees** and **Hash Tables**
+3. Study **BFS** and **DFS**
+
+### Advanced
+1. Implement **Graph Algorithms** (Dijkstra, MST)
+2. Master **Dynamic Programming**
+3. Study **Design Patterns**
+
+---
+
+## 📚 Additional Resources
+
+- [Bit Manipulation Guide](https://realpython.com/python-bitwise-operators/)
+- [Algorithms Study Cheatsheet](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Visual Algorithm Animations](https://visualgo.net/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please ensure:
+- Code follows existing style
+- Includes proper documentation
+- Has example usage
+- Time/space complexity noted
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## ⭐ Star History
+
+If you find this repository helpful, please consider giving it a star! ⭐
+
+---
+
+**Happy Coding! 🚀**
