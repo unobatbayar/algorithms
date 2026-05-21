@@ -376,6 +376,162 @@ Operations
 
 ---
 
+## How they differ
+
+All of these describe **how runtime (or steps) grows as input size `n` grows**. The key difference is **the shape of that growth curve** — not the exact constant factors.
+
+Think of `n` as “how much data you have.” As `n` gets huge, only the **dominant term** matters.
+
+---
+
+### O(1) — constant
+
+**Growth:** Does not grow with `n`. Same cost whether you have 10 items or 10 million.
+
+**Difference:** The only class where **doubling data does not increase work** (for that single operation).
+
+**Example:** Hash map `get` by key (average case) — compute hash, jump to bucket, read value.
+
+```
+n = 1       → ~1 step
+n = 1,000,000 → ~1 step
+```
+
+---
+
+### O(log n) — logarithmic
+
+**Growth:** Grows very slowly. Each step **shrinks the problem** (usually by half).
+
+**Difference from O(1):** Still depends on `n`, but weakly — adding one more step when you **double** `n`.
+
+**Example:** Binary search in a sorted array.
+
+```
+n = 1,000     → ~10 comparisons
+n = 1,000,000 → ~20 comparisons  (1000× more data, only ~2× work)
+```
+
+**vs O(1):** O(log n) is “almost constant” for practical sizes, but technically still tied to `n`.
+
+---
+
+### O(n) — linear
+
+**Growth:** Work grows **in proportion** to `n`. Double the data → roughly double the time.
+
+**Difference from O(log n):** You typically **touch every item once** (or a fixed fraction of them), not repeatedly cut the problem in half.
+
+**Example:** Find max in an unsorted array — one pass.
+
+```
+n = 1,000     → ~1,000 steps
+n = 1,000,000 → ~1,000,000 steps
+```
+
+**Rule of thumb:** One loop over `n` → often O(n).
+
+---
+
+### O(n log n) — linearithmic
+
+**Growth:** Faster than linear, slower than quadratic. Common for **efficient sorting** and “divide, solve small pieces, combine” algorithms.
+
+**Difference from O(n):** You do **O(n) work at each of O(log n) levels** (typical divide-and-conquer pattern).
+
+**Example:** Merge sort, heap sort.
+
+```
+n = 1,000     → ~10,000 operations (1000 × log₂ 1000 ≈ 10k)
+n = 1,000,000 → ~20,000,000 (1M × 20)
+```
+
+**vs O(n²):** For large `n`, n log n is **much** cheaper than n².
+
+| n | n log n (rough) | n² |
+|---|-----------------|-----|
+| 1,000 | ~10k | ~1M |
+| 10,000 | ~130k | ~100M |
+
+---
+
+### O(n²) — quadratic
+
+**Growth:** If you **double** `n`, work roughly **quadruples** (4×).
+
+**Difference from O(n):** Often **nested loops** — for each of `n` items, you do something with all `n` again.
+
+**Example:** Bubble sort, naive “compare every pair.”
+
+```python
+for i in range(n):
+    for j in range(n):
+        ...
+```
+
+```
+n = 1,000     → ~1,000,000 steps
+n = 1,000,000 → ~1,000,000,000,000 steps  (impractical)
+```
+
+**vs O(n log n):** Sorting 1M items: merge sort ~20M ops vs naive O(n²) ~1 trillion ops.
+
+---
+
+## Side-by-side: what happens when `n` grows?
+
+| Complexity | 10× more data (`n` → 10n) | Feels like |
+|------------|---------------------------|------------|
+| **O(1)** | Same | Instant |
+| **O(log n)** | +~3 steps (base 2) | Barely notice |
+| **O(n)** | ~10× slower | Scales with data |
+| **O(n log n)** | ~10× + a bit more (log factor) | Fine for big data |
+| **O(n²)** | ~100× slower | Dies on large `n` |
+
+---
+
+## Visual intuition (relative cost at large n)
+
+```
+cost
+  ↑
+  │                              ╱ O(n²)
+  │                         ╱
+  │                    ╱ O(n log n)
+  │               ╱
+  │          ╱ O(n)
+  │     ╱
+  │╱ O(log n)  (stays very flat)
+  │────────────────────────────── O(1) (flat line)
+  └────────────────────────────→ n
+```
+
+---
+
+## How to tell them apart in code
+
+| Pattern | Typical complexity |
+|---------|-------------------|
+| Single lookup, no loop over `n` | O(1) |
+| Halve/search tree each step | O(log n) |
+| One loop over `n` | O(n) |
+| Sort efficiently (merge/heap) | O(n log n) |
+| Two nested loops over `n` | O(n²) |
+
+**Important:** Big-O ignores constants. O(1000n) is still **O(n)**. O(n) with a tiny `n` can beat O(log n) with huge overhead in practice — but as `n` grows, the **class** wins.
+
+---
+
+## One sentence each
+
+- **O(1):** Size doesn’t matter for that operation.
+- **O(log n):** Repeatedly cut the problem in half.
+- **O(n):** Do something once per item.
+- **O(n log n):** Do “per item” work across log-many layers (smart divide-and-conquer).
+- **O(n²):** Every item interacts with every other item (nested loops).
+
+If you want, we can walk through **one concrete algorithm** (e.g. linear search vs binary search vs bubble sort) step-by-step with `n = 8` so the counts are explicit.
+
 ## 🧮 Other Algorithms
 
 ### Mathematical & Utility Algorithms
@@ -471,19 +627,3 @@ Contributions are welcome! Please ensure:
 - Includes proper documentation
 - Has example usage
 - Time/space complexity noted
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## ⭐ Star History
-
-If you find this repository helpful, please consider giving it a star! ⭐
-
----
-
-**Happy Coding! 🚀**
